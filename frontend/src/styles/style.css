@@ -1,0 +1,70 @@
+:root {
+  --green: #173d2b;
+  --deep-green: #102b20;
+  --cream: #f7f0df;
+  --gold: #d6ad60;
+  --text: #fffaf0;
+  --muted: #c8d2c9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--green) !important;
+  color: var(--text);
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  background: var(--gold);
+  color: #173323;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  background: #fffaf0;
+  color: #24372b;
+  border: 1px solid #d6ad60;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+a {
+  color: var(--gold);
+}
+
+h1, h2, h3 {
+  color: var(--cream);
+}
+
+/* Cards and sections */
+.card,
+.menu-card,
+.recipe-card,
+.dashboard-card,
+.booking-card {
+  background: var(--cream);
+  color: #24372b;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 8px 24px #071a1080;
+}
+
+.card h1, .card h2, .card h3,
+.menu-card h1, .menu-card h2, .menu-card h3,
+.recipe-card h2, .dashboard-card h2 {
+  color: #173d2b;
+}
+
+p {
+  line-height: 1.7;
+}
